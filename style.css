@@ -1,0 +1,40 @@
+*{margin:0;padding:0;border:none;}canvas{position:absolute;overflow:hidden;z-index:0}
+body {box-sizing:border-box;font-family:arial;}
+
+.startMenu {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.interface {
+    padding: 5px;
+    display: flex;
+    margin-top: 20px;
+    background-color: #eee;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.interface>button {
+    border: 1px solid black;
+    width: 200px;
+    height: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+}
+.interface>button:hover {
+    border: 1px solid rgb(49, 49, 49);
+    background-color: gray;
+    color: white;
+}
